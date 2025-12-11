@@ -1,0 +1,4 @@
+# This file has been upgraded for use by the Wowza Streaming Engine REST API. Please avoid hand-editing.
+133_800.stream_source={"entryName":"nano-1080", "profile":"rtmp", "wowzaVideoTranscoder.width":"0", "application":"live", "destinationName":"rtmp", "host":"aCKBb-VEIWf.vtrans-eu-a.glb.nanocosmos.de", "wowzaVideoTranscoder.height":"0", "streamName":"aCKBb-VEIWf", "enabled":"true"}
+133_800.stream_480p={"entryName":"nano-480", "profile":"rtmp", "wowzaVideoTranscoder.width":"0", "application":"live", "host":"aCKBb-wxNeO.vtrans-eu-a.glb.nanocosmos.de", "wowzaVideoTranscoder.height":"0", "streamName":"aCKBb-wxNeO", "enabled":"true"}
+133_800.stream_720p={"entryName":"nano-720", "profile":"rtmp", "wowzaVideoTranscoder.width":"0", "application":"live", "host":"aCKBb-qZ3QA.vtrans-eu-a.glb.nanocosmos.de", "wowzaVideoTranscoder.height":"0", "streamName":"aCKBb-qZ3QA", "enabled":"true"}
