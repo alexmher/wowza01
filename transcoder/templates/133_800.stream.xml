@@ -175,8 +175,8 @@
 						<Location>
 							<X>770</X>
 							<Y>310</Y>
-							<Width>230</Width>
-							<Height>230</Height>
+							<Width>320</Width>
+							<Height>76</Height>
 							<Align>hcenter,top</Align>
 						</Location>
 					</Overlay>
