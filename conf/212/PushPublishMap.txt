@@ -1,4 +1,4 @@
 # This file has been upgraded for use by the Wowza Streaming Engine REST API. Please avoid hand-editing.
-212.stream={"entryName":"nano-1080", "profile":"rtmp", "wowzaVideoTranscoder.width":"0", "application":"live", "host":"aCKBb-KkKph.vtrans-eu-a.glb.nanocosmos.de", "wowzaVideoTranscoder.height":"0", "streamName":"aCKBb-KkKph"}
-212.stream_480p={"entryName":"nano-480", "profile":"rtmp", "wowzaVideoTranscoder.width":"0", "application":"live", "host":"aCKBb-1l7v8.vtrans-eu-a.glb.nanocosmos.de", "wowzaVideoTranscoder.height":"0", "streamName":"aCKBb-1l7v8"}
-212.stream_720p={"entryName":"nano-720", "profile":"rtmp", "wowzaVideoTranscoder.width":"0", "application":"live", "host":"aCKBb-rMCob.vtrans-eu-a.glb.nanocosmos.de", "wowzaVideoTranscoder.height":"0", "streamName":"aCKBb-rMCob"}
+212.stream={"entryName":"nano-1080", "profile":"rtmp", "wowzaVideoTranscoder.width":"0", "application":"live", "host":"aCKBb-KkKph.vtrans-eu-a.glb.nanocosmos.de", "wowzaVideoTranscoder.height":"0", "streamName":"aCKBb-KkKph", "enabled":"true"}
+212.stream_480p={"entryName":"nano-480", "profile":"rtmp", "wowzaVideoTranscoder.width":"0", "application":"live", "host":"aCKBb-1l7v8.vtrans-eu-a.glb.nanocosmos.de", "wowzaVideoTranscoder.height":"0", "streamName":"aCKBb-1l7v8", "enabled":"true"}
+212.stream_720p={"entryName":"nano-720", "profile":"rtmp", "wowzaVideoTranscoder.width":"0", "application":"live", "host":"aCKBb-rMCob.vtrans-eu-a.glb.nanocosmos.de", "wowzaVideoTranscoder.height":"0", "streamName":"aCKBb-rMCob", "enabled":"true"}
