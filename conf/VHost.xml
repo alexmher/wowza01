@@ -34,10 +34,10 @@
 				<HTTPStreamerAdapterIDs>cupertinostreaming,smoothstreaming,sanjosestreaming,dvrchunkstreaming,mpegdashstreaming</HTTPStreamerAdapterIDs>
 				<HTTPProviders>
 					<HTTPProvider>
-						 <BaseClass>com.wowza.wms.plugin.HTTPProviderMarathonDataInjection</BaseClass>
-						 <RequestFilters>*marathonData</RequestFilters>
-					         <AuthenticationMethod>none</AuthenticationMethod>
-					</HTTPProvider>	
+						<BaseClass>com.wowza.wms.plugin.HTTPProviderMarathonDataInjection</BaseClass>
+						<RequestFilters>*marathonData</RequestFilters>
+						<AuthenticationMethod>none</AuthenticationMethod>
+					</HTTPProvider>
 					<HTTPProvider>
 						<BaseClass>com.wowza.wms.http.HTTPCrossdomain</BaseClass>
 						<RequestFilters>*crossdomain.xml</RequestFilters>
@@ -82,10 +82,10 @@
 				<HTTPStreamerAdapterIDs></HTTPStreamerAdapterIDs>
 				<HTTPProviders>
 					<HTTPProvider>
-                                                <BaseClass>com.wowza.wms.transcoder.thumbnailer.HTTPProviderGenerateThumbnail</BaseClass>
-                                                <RequestFilters>thumbnail*</RequestFilters>
-                                                <AuthenticationMethod>none</AuthenticationMethod>
-                                        </HTTPProvider>
+						<BaseClass>com.wowza.wms.transcoder.thumbnailer.HTTPProviderGenerateThumbnail</BaseClass>
+						<RequestFilters>thumbnail*</RequestFilters>
+						<AuthenticationMethod>none</AuthenticationMethod>
+					</HTTPProvider>
 					<HTTPProvider>
 						<BaseClass>com.wowza.wms.http.HTTPServerInfoXML</BaseClass>
 						<RequestFilters>serverinfo*</RequestFilters>
@@ -245,7 +245,7 @@
 		</IdleWorkers>
 		<NetConnections>
 			<ProcessorCount>${com.wowza.wms.TuningAuto}</ProcessorCount>
-			<IdleFrequency>250</IdleFrequency>
+			<IdleFrequency>120</IdleFrequency>
 			<SocketConfiguration>
 				<ReuseAddress>true</ReuseAddress>
 				<ReceiveBufferSize>0</ReceiveBufferSize>
@@ -257,6 +257,7 @@
 				<!-- <SoLingerTime>-1</SoLingerTime> -->
 				<!-- <TcpNoDelay>false</TcpNoDelay> -->
 				<AcceptorBackLog>100</AcceptorBackLog>
+				<TcpNoDelay>true</TcpNoDelay>
 			</SocketConfiguration>
 		</NetConnections>
 		<MediaCasters>
